@@ -1,3 +1,43 @@
 #header {
     background: url(https://www.10wallpaper.com/wallpaper/1366x768/1410/white_blossoms-HD_Photo_Wallpaper_1366x768.jpg) center center / cover no-repeat ;
   }
+  .btn-5 {
+    width: 130px;
+    height: 40px;
+    line-height: 42px;
+    padding: 0;
+    border: none;
+    background: #1abbc7;
+  background: linear-gradient(0deg, #87e2de 0%, #07cebd 100%);
+  }
+  .btn-5:hover {
+    color: #1abbc7;
+    background: transparent;
+     box-shadow:none;
+  }
+  .btn-5:before,
+  .btn-5:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: #1abbc7;
+    box-shadow:
+     -1px -1px 5px 0px #fff,
+     7px 7px 20px 0px #0003,
+     4px 4px 5px 0px #0002;
+    transition:400ms ease all;
+  }
+  .btn-5:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+  }
+  .btn-5:hover:before,
+  .btn-5:hover:after{
+    width:100%;
+    transition:800ms ease all;
+  }
