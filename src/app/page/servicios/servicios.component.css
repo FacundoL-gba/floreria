@@ -32,7 +32,7 @@
   .card .card_title {
     text-align: center;
     border-radius: 0px 0px 40px 40px;
-    font-family:'Times New Roman', Times, serif;
+    font-family:Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 30px;
     margin-top: -80px;
@@ -51,6 +51,9 @@
   
   .title-black {
     color: rgb(255, 255, 255);
+  }
+  .title-otro {
+    color: black;
   }
   
   @media all and (max-width: 500px) {
